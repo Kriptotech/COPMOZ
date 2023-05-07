@@ -7,11 +7,13 @@ export function StartNow() {
                 <div className={style.right} data-aos="fade-right">
                     <h1>Algumas palavras sobre nós</h1>
                     <p>
-                        No Chester College, nosso objetivo é oferecer educação e
-                        treinamento de alta qualidade que atenda às necessidades
-                        de empregadores e indivíduos. Estamos trabalhando para
-                        oferecer cursos que são desenvolvidos em conjunto com os
-                        empregadores.
+                        O Colégio Politécnico de Moçambique (CPM) é uma
+                        instituição de ensino superior técnico-profissional
+                        localizada na cidade de Maputo, capital de Moçambique.
+                        Fundado em 1996, o CPM tem como objetivo fornecer
+                        formação técnica de alta qualidade para estudantes
+                        moçambicanos e estrangeiros, contribuindo para o
+                        desenvolvimento econômico e social do país.
                     </p>
                     <a href="/sobre">VER MAIS</a>
                 </div>

@@ -1,9 +1,9 @@
 import style from "./styles.module.css";
 import IMG from "./1.jpg";
 
-export function Testimonials() {
+export function Testimonials({ testimonialsRef }: any) {
     return (
-        <div className={style.container}>
+        <div className={style.container} ref={testimonialsRef}>
             <div className={style.header}>
                 <h1>Testemunhos</h1>
             </div>

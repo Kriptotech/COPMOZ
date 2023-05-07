@@ -31,7 +31,7 @@
     border-radius: 5px;
     padding-bottom: 15px;
     background-color: var(--background);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .box .item img {
@@ -40,30 +40,21 @@
     object-fit: cover;
     border-radius: 5px 5px 0 0;
 }
-.box .item span {
-    margin-top: 10px;
-    display: block;
-}
-.box .item span > span {
-    display: unset;
-    color: var(--primary);
-    margin-top: 10px;
-}
+
 .box .item h1 {
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--dark);
     margin-top: 15px;
     font-weight: normal;
+    margin-bottom: 20px;
 }
-.box .item p {
-    padding: 0 10px;
-    margin: 30px 0;
-    margin-bottom: 40px;
-    font-weight: 400;
-    color: var(--text);
-    line-height: 30px;
-    font-size: 0.9rem;
+.box .item a {
+    text-decoration: none;
+    background: var(--primary-linear);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
 }
 
 @media (max-width: 960px) {

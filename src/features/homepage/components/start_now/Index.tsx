@@ -1,5 +1,4 @@
 import style from "./styles.module.css";
-import IMG from "./1.jpg";
 
 export function StartNow() {
     return (
@@ -18,7 +17,7 @@ export function StartNow() {
                 </div>
 
                 <div className={style.left} data-aos="fade-left">
-                    <img src={IMG} alt="" />
+                    <img src="/assets/c1.jpeg" alt="" />
                 </div>
             </div>
         </div>

@@ -23,6 +23,7 @@
 .header nav .links a {
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 .header nav .links a:hover {
     color: var(--primary);
@@ -34,6 +35,7 @@
 }
 
 .header .mobile_links {
+    cursor: pointer;
     background: var(--primary);
     padding: 0px 7%;
     padding-top: 20px;

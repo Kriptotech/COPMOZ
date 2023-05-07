@@ -1,55 +1,42 @@
 import style from "./styles.module.css";
-import IMG1 from "./1.jpg";
 
-export function Courses() {
+export function Courses({ coursesRef }: any) {
     return (
-        <div className={style.container}>
+        <div className={style.container} ref={coursesRef}>
             <div className={style.header}>
                 <h1>Nossos cursos em destaque</h1>
             </div>
 
             <div className={style.box}>
                 <div className={style.item}>
-                    <img src={IMG1} alt="" />
-                    <span>
-                        Professor/a: <span>Maria Howard</span>
-                    </span>
-                    <h1>Curso Analista Financeiro</h1>
+                    <img src="/assets/c1.jpeg" alt="" />
+
+                    <h1>Enfermagem Geral</h1>
+                    <a href="/curso1">Sobre o curso</a>
                 </div>
                 <div className={style.item}>
-                    <img src={IMG1} alt="" />
-                    <span>
-                        Professor/a: <span>Maria Howard</span>
-                    </span>
-                    <h1>Curso Analista Financeiro</h1>
+                    <img src="/assets/c2.jpg" alt="" />
+
+                    <h1>Saúde Materna Infantil</h1>
+                    <a href="/curso2">Sobre o curso</a>
                 </div>
                 <div className={style.item}>
-                    <img src={IMG1} alt="" />
-                    <span>
-                        Professor/a: <span>Maria Howard</span>
-                    </span>
-                    <h1>Curso Analista Financeiro</h1>
+                    <img src="/assets/c3.jpg" alt="" />
+
+                    <h1>Técnico de Medicina Geral</h1>
+                    <a href="/curso3">Sobre o curso</a>
                 </div>
                 <div className={style.item}>
-                    <img src={IMG1} alt="" />
-                    <span>
-                        Professor/a: <span>Maria Howard</span>
-                    </span>
-                    <h1>Curso Analista Financeiro</h1>
+                    <img src="/assets/c4.jpg" alt="" />
+
+                    <h1>Gestão de Sistemas Informáticos</h1>
+                    <a href="/curso4">Sobre o curso</a>
                 </div>
                 <div className={style.item}>
-                    <img src={IMG1} alt="" />
-                    <span>
-                        Professor/a: <span>Maria Howard</span>
-                    </span>
-                    <h1>Curso Analista Financeiro</h1>
-                </div>
-                <div className={style.item}>
-                    <img src={IMG1} alt="" />
-                    <span>
-                        Professor/a: <span>Maria Howard</span>
-                    </span>
-                    <h1>Curso Analista Financeiro</h1>
+                    <img src="/assets/c5.jpg" alt="" />
+
+                    <h1>Contabilidade e Gestão</h1>
+                    <a href="/curso5">Sobre o curso</a>
                 </div>
             </div>
         </div>

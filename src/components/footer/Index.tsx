@@ -6,20 +6,19 @@ export function Footer() {
             <div className={style.row}>
                 <div>
                     <span>Cursos Técnicos</span>
-                    <a href="#">Saúde Materno Infantil;</a>
-                    <a href="#">Técnico de Medicina Geral;</a>
-                    <a href="#">Enfermagem Geral;</a>
-                    <a href="#">Gestão de Sistemas Informáticos;</a>
-                    <a href="#">Contabilidade e Gestão.</a>
+                    <a href="/curso1">Enfermagem Geral;</a>
+                    <a href="/curso2">Saúde Materna Infantil;</a>
+                    <a href="/curso3">Técnico de Medicina Geral;</a>
+                    <a href="/curso4">Gestão de Sistemas Informáticos;</a>
+                    <a href="/curso5">Contabilidade e Gestão.</a>
                 </div>
-                <div>
+                {/* <div>
                     <span>Cursos de Curta Duração</span>
                     <a href="#">Em Saúde;</a>
                     <a href="#">Em TICs;</a>
                     <a href="#">Em Gestão ;</a>
                     <a href="#">Em Contabilidade;</a>
-                    <a href="#">...</a>
-                </div>
+                </div> */}
                 <div>
                     <span>Contactos</span>
                     <p>Muhala Expansão Rua – 2307 Nampula, MZ</p>
@@ -29,12 +28,8 @@ export function Footer() {
                 </div>
                 <div>
                     <span>Ensino Geral</span>
-                    <a href="https://copmoz.ac.mz/pages/geral/index.html">
-                        Ensino Geral
-                    </a>
-                    <a href="https://copmoz.ac.mz/pages/geral/index.html">
-                        Ensino Secundário Completo
-                    </a>
+                    <a href="#">Inscrição ensino Geral</a>
+                    <a href="#">Inscrição instituto</a>
                 </div>
             </div>
         </footer>

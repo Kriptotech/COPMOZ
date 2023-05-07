@@ -5,19 +5,28 @@ import { Mission } from "../features/homepage/components/mission/Index";
 import { Courses } from "../features/homepage/components/courses/Index";
 import { Footer } from "../components/footer/Index";
 import { Shape } from "../features/homepage/components/shape/Index";
-import { Testimonials } from "../features/homepage/components/testimonials/Index";
+// import { Testimonials } from "../features/homepage/components/testimonials/Index";
 import { WhyChooseUs } from "../features/homepage/components/why_choose/Index";
+import { useRef } from "react";
 
 export function Homepage() {
+    const programsRef = useRef(null) as any;
+    // const testimonialsRef = useRef(null) as any;
+    const coursesRef = useRef(null) as any;
+
     return (
         <div>
-            <Header />
+            <Header
+                programsRef={programsRef}
+                // testimonialsRef={testimonialsRef}
+                coursesRef={coursesRef}
+            />
             <Hero />
-            <Mission />
-            <StartNow />
-            <Courses />
+            <Mission programsRef={programsRef} />
             <Shape />
-            <Testimonials />
+            <StartNow />
+            <Courses coursesRef={coursesRef} />
+            {/* <Testimonials testimonialsRef={testimonialsRef} /> */}
             <WhyChooseUs />
             <Footer />
         </div>

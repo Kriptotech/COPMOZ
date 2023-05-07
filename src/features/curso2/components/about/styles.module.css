@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 90px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+.container p {
+    margin-bottom: 30px;
+    line-height: 36px;
+    text-align: justify;
+}

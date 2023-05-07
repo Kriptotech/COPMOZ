@@ -1,10 +1,16 @@
 import { List } from "phosphor-react";
 import styles from "./styles.module.css";
-import { useState } from "react";
 import IMG from "./1.png";
+import { useState } from "react";
 
-export function Header() {
+export function Header({ programsRef, coursesRef }: any) {
     const [dropped, setDropped] = useState(false);
+
+    const scrollToSection = (elementRef: any) => {
+        window.scrollTo({
+            top: elementRef.current.offsetTop - 100,
+        });
+    };
 
     return (
         <div className={styles.header} data-aos="fade-down">
@@ -16,10 +22,13 @@ export function Header() {
                 <div className={styles.links}>
                     <a href="/">HOME</a>
                     <a href="/sobre">SOBRE</a>
-                    <a href="#">COURSES</a>
-                    <a href="#">HISTORY</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">CONTACTS</a>
+                    <a onClick={() => scrollToSection(programsRef)}>
+                        PROGRAMAS
+                    </a>
+                    <a onClick={() => scrollToSection(coursesRef)}>CURSOS</a>
+                    {/* <a onClick={() => scrollToSection(testimonialsRef)}>
+                        TESTEMUNHOS
+                    </a> */}
                 </div>
 
                 <button onClick={() => setDropped(!dropped)}>
@@ -31,10 +40,17 @@ export function Header() {
                 <div className={styles.mobile_links}>
                     <a href="/">HOME</a>
                     <a href="/sobre">SOBRE</a>
-                    <a href="#">COURSES</a>
-                    <a href="#">HISTORY</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">CONTACTS</a>
+                    <a onClick={() => scrollToSection(programsRef)}>
+                        PROGRAMAS
+                    </a>
+                    <a href="/curso1">Enfermagem Geral;</a>
+                    <a href="/curso2">Saúde Materna Infantil;</a>
+                    <a href="/curso3">Técnico de Medicina Geral;</a>
+                    <a href="/curso4">Gestão de Sistemas Informáticos;</a>
+                    <a href="/curso5">Contabilidade e Gestão.</a>
+                    {/* <a onClick={() => scrollToSection(testimonialsRef)}>
+                        TESTEMUNHOS
+                    </a> */}
                 </div>
             )}
         </div>

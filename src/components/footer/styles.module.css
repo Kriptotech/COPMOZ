@@ -6,8 +6,9 @@
 .footer .row {
     padding: 0 5%;
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    /* justify-content: space-between; */
+    gap: 60px;
+    flex-wrap: wrap;
 }
 .footer .row div:first-child {
     margin-right: 15px;

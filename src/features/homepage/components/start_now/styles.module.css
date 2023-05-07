@@ -1,7 +1,6 @@
 .container {
     width: 100%;
     padding: 80px 10%;
-    margin-top: 90px;
     background: var(--low-background);
 }
 

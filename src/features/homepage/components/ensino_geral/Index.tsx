@@ -16,7 +16,7 @@ export function EnsinoGeral({ coursesRef }: any) {
                         Os nossos docentes são profissionais altamente
                         qualificados
                     </p>
-                    <a href="/curso1">Inscreva-se ja</a>
+                    <a href="#">Inscreva-se ja</a>
                 </div>
                 <div className={style.item}>
                     <img src="/assets/copmoz alunos.jpg" alt="" />
@@ -26,7 +26,7 @@ export function EnsinoGeral({ coursesRef }: any) {
                         Dispomos de de uma salas de Aulas atendendo ao padrao
                         moderno escolar
                     </p>
-                    <a href="/curso1">Inscreva-se ja</a>
+                    <a href="#">Inscreva-se ja</a>
                 </div>
                 <div className={style.item}>
                     <img src="/assets/sala de inofr.jpg" alt="" />
@@ -38,7 +38,7 @@ export function EnsinoGeral({ coursesRef }: any) {
                         Dispomos de de uma sala de informática totalmente
                         equipada com computadores da última geração.{" "}
                     </p>
-                    <a href="/curso1">Inscreva-se ja</a>
+                    <a href="#">Inscreva-se ja</a>
                 </div>
             </div>
         </div>

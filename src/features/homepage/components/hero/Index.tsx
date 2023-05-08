@@ -4,7 +4,7 @@ export function Hero() {
     return (
         <div className={style.hero}>
             <div className={style.content} data-aos="fade-up">
-                <strong>ENSINO SUPERIOR DE QUALIDADE</strong>
+                <strong>ENSINO DE QUALIDADE</strong>
                 <h1>
                     Qualquer carreira de sucesso começa com{" "}
                     <span>uma boa educação</span>

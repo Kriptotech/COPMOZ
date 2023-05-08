@@ -9,19 +9,22 @@ export function Courses({ coursesRef }: any) {
 
             <div className={style.box}>
                 <div className={style.item}>
-                    <img src="/assets/c1.jpeg" alt="" />
+                    <img src="/assets/c1.jpg" alt="" />
 
                     <h1>Enfermagem Geral</h1>
                     <a href="/curso1">Sobre o curso</a>
                 </div>
                 <div className={style.item}>
-                    <img src="/assets/c2.jpg" alt="" />
+                    <img src="/assets/medicina-geral2.jpg" alt="" />
 
                     <h1>Saúde Materna Infantil</h1>
                     <a href="/curso2">Sobre o curso</a>
                 </div>
                 <div className={style.item}>
-                    <img src="/assets/c3.jpg" alt="" />
+                    <img
+                        src="/assets/copmoz assistencia medica instantanea.jpg"
+                        alt=""
+                    />
 
                     <h1>Técnico de Medicina Geral</h1>
                     <a href="/curso3">Sobre o curso</a>

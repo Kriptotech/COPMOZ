@@ -1,8 +1,8 @@
 import style from "./styles.module.css";
 
-export function Courses({ coursesRef }: any) {
+export function Courses() {
     return (
-        <div className={style.container} ref={coursesRef}>
+        <div className={style.container}>
             <div className={style.header}>
                 <h1>Nossos cursos em destaque</h1>
             </div>

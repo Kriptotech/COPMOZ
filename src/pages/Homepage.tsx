@@ -9,6 +9,7 @@ import { Shape } from "../features/homepage/components/shape/Index";
 import { WhyChooseUs } from "../features/homepage/components/why_choose/Index";
 import { EnsinoTecnico } from "../features/homepage/components/ensino_tecnico/Index";
 import { EnsinoGeral } from "../features/homepage/components/ensino_geral/Index";
+import { Activities } from "../features/homepage/components/activities/Index";
 
 export function Homepage() {
     return (
@@ -23,6 +24,7 @@ export function Homepage() {
             <Courses />
             {/* <Testimonials  /> */}
             <WhyChooseUs />
+            <Activities />
             <Footer />
         </div>
     );

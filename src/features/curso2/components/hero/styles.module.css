@@ -3,8 +3,8 @@
     min-height: 30rem;
     width: 100%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.486), #0c0c0c59),
-        url(./c1.jpeg);
-    background-position: center;
+        url(./c1.jpg);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 10%;
@@ -29,6 +29,14 @@
     text-align: center;
     font-family: "Kanit-Regular", sans-serif;
     margin-bottom: 40px;
+}
+.hero .content a {
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
 }
 
 @media (max-width: 1100px) {

@@ -10,7 +10,7 @@ export function WhyChooseUs() {
                     úteis para você ao subir na carreira
                 </h1>
                 <p>
-                    Torne-se parte de nossa faculdade para desenvolver suas
+                    Torne-se parte do nosso instituto para desenvolver suas
                     habilidades ocultas e se tornar um profissional.
                 </p>
                 <a href="/sobre">LEAIA MAIS</a>

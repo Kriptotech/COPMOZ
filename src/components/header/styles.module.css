@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 .header nav .logo img {
-    width: 200px;
+    width: 60px;
 }
 .header nav .links {
     display: flex;
@@ -24,6 +24,20 @@
     text-decoration: none;
     color: #000;
     cursor: pointer;
+    position: relative;
+}
+.header nav .links a div {
+    position: absolute;
+    min-width: 300px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.288);
+}
+.header nav .links a div a {
+    margin-bottom: 20px;
+    display: block;
 }
 .header nav .links a:hover {
     color: var(--primary);

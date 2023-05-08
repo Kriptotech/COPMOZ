@@ -1,15 +1,16 @@
 import { Bag } from "phosphor-react";
 import style from "./styles.module.css";
 
-export function Mission({ programsRef }: any) {
+export function Mission() {
     return (
-        <div className={style.container} ref={programsRef}>
+        <div className={style.container}>
             <div className={style.header}>
-                <h1>Programas acadêmicos</h1>
+                <h1>Rigor, Qualidade e Inovação</h1>
                 <p>
-                    Em nossa faculdade, você encontrará turmas pequenas, tópicos
-                    de cursos fascinantes e uma variedade de programas de
-                    graduação personalizados.
+                    A nossa missão é de garantir a formação de profissionais de
+                    saude nas areas de Enfermagem geral, Técnicos de medicina
+                    geral, Técnicos de Suporte Informatico, Enfermagem em saude
+                    materna e infantil e Contabilidade
                 </p>
             </div>
 
@@ -20,9 +21,8 @@ export function Mission({ programsRef }: any) {
                     </div>
                     <h1>Valor</h1>
                     <p>
-                        Oferecemos cursos técnicos e profissionalizantes em
-                        diversas áreas, como tecnologia de informação, gestão
-                        empresarial, engenharia, saúde e educação.
+                        Respeitos às diferenças;Competência responsabilidade;
+                        Profissionalismo; Solidariedade e Ética
                     </p>
                 </div>
                 <div className={style.item}>
@@ -31,12 +31,9 @@ export function Mission({ programsRef }: any) {
                     </div>
                     <h1>Visão</h1>
                     <p>
-                        A visão do Colégio Politécnico de Moçambique é ser uma
-                        instituição líder em educação técnica e
-                        profissionalizante em Moçambique, reconhecida nacional e
-                        internacionalmente pela excelência acadêmica, inovação,
-                        inclusão e compromisso com o desenvolvimento sustentável
-                        do país.
+                        Ser uma referência nacional e internacional na formação
+                        de técnicos com competência de saber ser, saber fazer,
+                        saber estar para a prestação de serviços com qualidade.
                     </p>
                 </div>
                 <div className={style.item}>
@@ -45,11 +42,9 @@ export function Mission({ programsRef }: any) {
                     </div>
                     <h1>Missão</h1>
                     <p>
-                        A missão do Colégio Politécnico de Moçambique é fornecer
-                        educação técnica e profissionalizante de alta qualidade,
-                        que prepara os alunos para o mercado de trabalho,
-                        promove a inclusão e a diversidade, e contribui para o
-                        desenvolvimento econômico e social do país.
+                        Atuar com exigência servir por excelência para a
+                        satisfação e desenvolvimento de uma sociedade livre,
+                        autónoma, responsável e solidária.
                     </p>
                 </div>
             </div>

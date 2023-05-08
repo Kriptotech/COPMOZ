@@ -7,26 +7,21 @@ import { Footer } from "../components/footer/Index";
 import { Shape } from "../features/homepage/components/shape/Index";
 // import { Testimonials } from "../features/homepage/components/testimonials/Index";
 import { WhyChooseUs } from "../features/homepage/components/why_choose/Index";
-import { useRef } from "react";
+import { EnsinoTecnico } from "../features/homepage/components/ensino_tecnico/Index";
+import { EnsinoGeral } from "../features/homepage/components/ensino_geral/Index";
 
 export function Homepage() {
-    const programsRef = useRef(null) as any;
-    // const testimonialsRef = useRef(null) as any;
-    const coursesRef = useRef(null) as any;
-
     return (
         <div>
-            <Header
-                programsRef={programsRef}
-                // testimonialsRef={testimonialsRef}
-                coursesRef={coursesRef}
-            />
+            <Header />
             <Hero />
-            <Mission programsRef={programsRef} />
+            <Mission />
             <Shape />
+            <EnsinoTecnico />
             <StartNow />
-            <Courses coursesRef={coursesRef} />
-            {/* <Testimonials testimonialsRef={testimonialsRef} /> */}
+            <EnsinoGeral />
+            <Courses />
+            {/* <Testimonials  /> */}
             <WhyChooseUs />
             <Footer />
         </div>

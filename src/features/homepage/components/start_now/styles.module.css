@@ -51,7 +51,10 @@
 
 .content .left img {
     width: 100%;
+    max-height: 500px;
     border-radius: 5px;
+    object-fit: cover;
+    object-position: top;
 }
 
 @media (max-width: 820px) {

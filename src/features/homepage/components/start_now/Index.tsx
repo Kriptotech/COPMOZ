@@ -19,7 +19,7 @@ export function StartNow() {
                 </div>
 
                 <div className={style.left} data-aos="fade-left">
-                    <img src="/assets/c1.jpeg" alt="" />
+                    <img src="/assets/noticia director vs pca.jpg" alt="" />
                 </div>
             </div>
         </div>

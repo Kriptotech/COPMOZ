@@ -44,12 +44,13 @@ export function Header() {
                 <div className={styles.mobile_links}>
                     <a href="/">HOME</a>
                     <a href="/sobre">SOBRE</a>
-                    <a>PROGRAMAS</a>
                     <a href="/curso1">Enfermagem Geral;</a>
                     <a href="/curso2">Saúde Materna Infantil;</a>
                     <a href="/curso3">Técnico de Medicina Geral;</a>
                     <a href="/curso4">Gestão de Sistemas Informáticos;</a>
                     <a href="/curso5">Contabilidade e Gestão.</a>
+                    <a>PORTAL ACADEMICO</a>
+                    <a>LOGIN</a>
                     {/* <a >
                         TESTEMUNHOS
                     </a> */}
